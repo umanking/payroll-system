@@ -116,16 +116,16 @@ ServiceCharge <직원번호> <액수>
 이 트랜잭션을 받으면 시스템은 해당하는 직원 레코드의 정보 중 하나를 변경한다. 이 트랜잭션에는 다양한 변형이 있을 수 있다.
 
 ```
-ChangeEmp <직원번호> Name <이름>														직원의 이름을 변경한다.
-ChangeEmp <직원번호> Address <주소>													직원의 주소를 변경한다.
-ChangeEmp <직원번호> Hourly <시급>													시급을 받는 것으로 변경한다.
-ChangeEmp <직원번호> Salaried <월급>												월급을 받는 것으로 변경한다.
-ChangeEmp <직원번호> Commisioned <월급> <비율>							 수수료를 받는 것으로 변경한다.
-ChangeEmp <직원번호> Hold																	 급여담당자에게 맡겨놓는다.
-ChangeEmp <직원번호> Direct <은행> <계좌>										 직접 입금을 받는다.
-ChangeEmp <직원번호> Mail <주소>														우편으로 받는다.
-ChangeEmp <직원번호> Member <조합원번호> Dues <조합비 비율> 		직원을 조합에 넣는다.
-ChangeEmp <직원번호> NoMember														   직원을 조합에서 뺀다.
+ChangeEmp <직원번호> Name <이름>							직원의 이름을 변경한다.
+ChangeEmp <직원번호> Address <주소>						직원의 주소를 변경한다.
+ChangeEmp <직원번호> Hourly <시급>							시급을 받는 것으로 변경한다.
+ChangeEmp <직원번호> Salaried <월급>						월급을 받는 것으로 변경한다.
+ChangeEmp <직원번호> Commisioned <월급> <비율>				수수료를 받는 것으로 변경한다.
+ChangeEmp <직원번호> Hold						            급여담당자에게 맡겨놓는다.
+ChangeEmp <직원번호> Direct <은행> <계좌>					직접 입금을 받는다.
+ChangeEmp <직원번호> Mail <주소>							우편으로 받는다.
+ChangeEmp <직원번호> Member <조합원번호> Dues <조합비 비율> 	직원을 조합에 넣는다.
+ChangeEmp <직원번호> NoMember								직원을 조합에서 뺀다.
 ```
 
 **대안: 트랜잭션 에러**
